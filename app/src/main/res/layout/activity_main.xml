@@ -1,0 +1,260 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#efefef"
+    android:padding="10dp"
+    tools:context=".MainActivity">
+
+    <RelativeLayout
+        android:id="@+id/container1"
+        android:layout_width="180dp"
+        android:layout_height="180dp"
+        android:background="#fff"
+        android:layout_margin="10dp"
+        android:padding="20dp"
+        tools:ignore="MissingConstraints">
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/ic_baseline_star_rate_24"
+        android:layout_alignParentRight="true"/>
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:id="@+id/pro_img1"
+            android:layout_width="60dp"
+            android:layout_marginBottom="20dp"
+            android:layout_height="60dp"
+            app:civ_border_color="#bbb"
+            app:civ_border_width="3dp" />
+        <TextView
+            android:id="@+id/pro_name1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textStyle="bold"
+            android:layout_below="@id/pro_img1"
+            android:text="Ed Revalo"
+            android:textColor="#000"/>
+        <TextView
+            android:id="@+id/pro_detail1"
+            android:layout_width="wrap_content"
+            android:layout_marginTop="10dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/pro_name1"
+            android:textSize="12sp"
+            android:textColor="#777"
+            android:text="Drivers, New Jersey\nG32 - 3453-321"/>
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/container2"
+        android:layout_width="180dp"
+        android:layout_margin="10dp"
+        android:layout_height="180dp"
+
+        android:layout_toRightOf="@id/container1"
+        android:background="#fff"
+        android:padding="20dp"
+        tools:ignore="MissingConstraints">
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/ic_baseline_star_rate_24"
+            android:layout_alignParentRight="true"/>
+
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:id="@+id/pro_img2"
+            android:layout_width="60dp"
+            android:layout_marginBottom="20dp"
+            android:layout_height="60dp"
+            app:civ_border_color="#bbb"
+            app:civ_border_width="3dp" />
+        <TextView
+            android:id="@+id/pro_name2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textStyle="bold"
+            android:layout_below="@id/pro_img2"
+            android:text="Brenda Garner"
+            android:textColor="#000"/>
+        <TextView
+            android:id="@+id/pro_detail2"
+            android:layout_width="wrap_content"
+            android:layout_marginTop="10dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/pro_name2"
+            android:textSize="12sp"
+            android:textColor="#777"
+            android:text="National, Florida\nG32 - 3453-321"/>
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/container3"
+        android:layout_width="180dp"
+        android:layout_height="180dp"
+        android:background="#fff"
+        android:layout_margin="10dp"
+        android:layout_below="@id/container1"
+        android:padding="20dp"
+        tools:ignore="MissingConstraints">
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/ic_baseline_star_rate_24"
+            android:layout_alignParentRight="true"/>
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:id="@+id/pro_img3"
+            android:layout_width="60dp"
+            android:layout_marginBottom="20dp"
+            android:layout_height="60dp"
+            app:civ_border_color="#bbb"
+            app:civ_border_width="3dp" />
+        <TextView
+            android:id="@+id/pro_name3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textStyle="bold"
+            android:layout_below="@id/pro_img3"
+            android:text="Ed Revalo"
+            android:textColor="#000"/>
+        <TextView
+            android:id="@+id/pro_detail3"
+            android:layout_width="wrap_content"
+            android:layout_marginTop="10dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/pro_name3"
+            android:textSize="12sp"
+            android:textColor="#777"
+            android:text="Drivers, New Jersey\nG32 - 3453-321"/>
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/container4"
+        android:layout_width="180dp"
+        android:layout_margin="10dp"
+        android:layout_height="180dp"
+        android:layout_below="@id/container1"
+        android:layout_toRightOf="@id/container1"
+        android:background="#fff"
+        android:padding="20dp"
+        tools:ignore="MissingConstraints">
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/ic_baseline_star_rate_24"
+            android:layout_alignParentRight="true"/>
+
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:id="@+id/pro_img4"
+            android:layout_width="60dp"
+            android:layout_marginBottom="20dp"
+            android:layout_height="60dp"
+            app:civ_border_color="#bbb"
+            app:civ_border_width="3dp" />
+        <TextView
+            android:id="@+id/pro_name4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textStyle="bold"
+            android:layout_below="@id/pro_img4"
+            android:text="Brenda Garner"
+            android:textColor="#000"/>
+        <TextView
+            android:id="@+id/pro_detail4"
+            android:layout_width="wrap_content"
+            android:layout_marginTop="10dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/pro_name4"
+            android:textSize="12sp"
+            android:textColor="#777"
+            android:text="National, Florida\nG32 - 3453-321"/>
+    </RelativeLayout>
+
+
+
+    <RelativeLayout
+        android:id="@+id/container5"
+        android:layout_width="180dp"
+        android:layout_height="180dp"
+        android:background="#fff"
+        android:layout_margin="10dp"
+        android:layout_below="@id/container3"
+        android:padding="20dp"
+        tools:ignore="MissingConstraints">
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/ic_baseline_star_rate_24"
+            android:layout_alignParentRight="true"/>
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:id="@+id/pro_img5"
+            android:layout_width="60dp"
+            android:layout_marginBottom="20dp"
+            android:layout_height="60dp"
+            app:civ_border_color="#bbb"
+            app:civ_border_width="3dp" />
+        <TextView
+            android:id="@+id/pro_name5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textStyle="bold"
+            android:layout_below="@id/pro_img5"
+            android:text="Ed Revalo"
+            android:textColor="#000"/>
+        <TextView
+            android:id="@+id/pro_detail5"
+            android:layout_width="wrap_content"
+            android:layout_marginTop="10dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/pro_name5"
+            android:textSize="12sp"
+            android:textColor="#777"
+            android:text="Drivers, New Jersey\nG32 - 3453-321"/>
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/container6"
+        android:layout_width="180dp"
+        android:layout_margin="10dp"
+        android:layout_height="180dp"
+        android:layout_below="@id/container3"
+        android:layout_toRightOf="@id/container3"
+        android:background="#fff"
+        android:padding="20dp"
+        tools:ignore="MissingConstraints">
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/ic_baseline_star_rate_24"
+            android:layout_alignParentRight="true"/>
+
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:id="@+id/pro_img6"
+            android:layout_width="60dp"
+            android:layout_marginBottom="20dp"
+            android:layout_height="60dp"
+            app:civ_border_color="#bbb"
+            app:civ_border_width="3dp" />
+        <TextView
+            android:id="@+id/pro_name6"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textStyle="bold"
+            android:layout_below="@id/pro_img6"
+            android:text="Brenda Garner"
+            android:textColor="#000"/>
+        <TextView
+            android:id="@+id/pro_detail6"
+            android:layout_width="wrap_content"
+            android:layout_marginTop="10dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/pro_name6"
+            android:textSize="12sp"
+            android:textColor="#777"
+            android:text="National, Florida\nG32 - 3453-321"/>
+    </RelativeLayout>
+
+</RelativeLayout>
+
+
